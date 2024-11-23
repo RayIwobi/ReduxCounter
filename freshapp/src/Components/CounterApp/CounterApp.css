@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+
+.counternav{
+    width: 100%;
+    height: 70px;
+    background-color: #2d545e;
+    box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.74);
+}
+
+.mainsection{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+   
+    background-image: linear-gradient(to bottom, #ADBBDA , #EDE8F5);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.imglogo{
+    margin-top: 10px;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.74);
+    -moz-box-shadow: 3px 3px 7px 7px rgba(0,0,0,0.74);
+
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75); */
+}
+
+.imglogo:active {
+    transform: scale(0.95); /* Slightly shrink the image */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right{
+    color: white;
+    font-size: 13px;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.titlesection{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.counter{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter span{
+    margin-left: 10px;
+    font-size: 45px;
+    font-family: 'Digital Numbers', sans-serif;
+}
+
+.counter h3{
+    font-size: 45px;
+    font-family: 'Roboto';
+}
+
+.doublebutton button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #2d545e;
+    margin-right: 10px;
+}
+
+.inputarea{
+    margin-top: 30px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Digital Numbers', sans-serif;
+    color: white;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #424546;
+}
+
+.buttonsection button{
+    margin-top: 10px;
+    margin-right: 6px;
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    background-color: #2d545e;
+}
+
+@media screen and (max-width: 600px) {
+    .titlesection{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .counternav{
+        width: 100%;
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .counternav h1{
+        font-size: 14px;
+    }
+    
+}
+
